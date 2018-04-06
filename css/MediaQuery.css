@@ -1,0 +1,117 @@
+@media only screen and (max-width: 767px){
+	#main-container {
+		margin-top: -10px;
+	}
+	.content-container {
+		margin-top: -10px;
+	}
+
+	.scroll-top-img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.share-box {
+		display: none !important;
+	}
+	
+	.header {
+		padding: 15px 10px 15px 10px;
+	}
+	
+	.header_menu a {
+		display: none;
+	}
+
+	.nav-username {
+		display: none;
+	}
+
+	a.search_btn {
+		display: inline;
+	}
+
+	.search_field {
+		width: 100%;
+	}
+
+	.menu-heading {
+		display: block;
+		color: #222;
+		position: absolute;
+		top: 10px;
+		left: 20px;
+		font-size: 19px;
+	}
+
+	.welcome-box {
+		width: 100%;
+		margin: 3% auto 0 auto;
+		font-size: 11px;
+		padding-left: 4%;
+	}
+	.welcome-box>h1 {
+		font-size: 12px;
+	}
+
+	.banner-p {
+		display: none;
+	}
+
+	.banner-btn {
+		padding: 2px;
+		font-size: 10px; 
+	}
+
+	.cycle-prev, .cycle-next {
+		display: none;
+	}
+
+	.cycle-pager {
+		bottom: -7px;
+	}
+	.cycle-pager span {
+		width: 6px;
+		height: 6px;
+		border: 1px solid #fff;
+		margin: 0 6px;
+	}
+
+	.feature-box {
+		margin-top: 10px;
+	}
+
+	/*==========for downloads boxes=========*/
+
+	.code-box {
+		margin-top: 20px;
+		padding-bottom: 8px;
+	}
+	.code-box:hover {
+		box-shadow: 2px 3px 20px #222;
+		margin-top: 20px;
+	}
+	.plugin-box {
+		margin-top: 20px;
+		padding-bottom: 8px;
+	}
+	.profile-box {
+		padding: 10px 10%;
+	}
+
+	.filter {
+		margin-top: 0px;
+		float: none;
+	}
+	.filter a {
+		margin-top: 5px;
+	}
+
+	.submit_btn {
+	  width: 100%;
+	}
+
+	.changepwd_wrapper {
+		width: 100%;
+	}
+}

@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: white !important;
+	background-color: #069ab8 !important;
+}
+
+
+.heading {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Nirmala UI;
+  font-size: 35px;
+  text-shadow: 5px 0px 5px #000;
+  margin-top: 15px;
+}
+
+/*====================start slider========================*/
+.container {   /* Remove the container for full width slider. if you want*/
+  width: 80%;
+  height: auto;
+  margin: 30px auto auto auto; 
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fff;
+}
+.cycle-slideshow {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+
+.cycle-prev, .cycle-next {
+	display: block;
+	position: absolute;
+	z-index: 9999;
+	top: 47%;
+	cursor: pointer;
+	background-color: #e32429;
+	padding: 5px;
+	border-radius: 4px; 
+}
+.cycle-prev {
+	left: 0;
+}
+.cycle-next {
+	right: 0;
+}
+.cycle-pager {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	text-align: center;
+	z-index: 999;
+}
+.cycle-pager span {
+	color: transparent;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #fff;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 0 10px;
+	cursor: pointer;
+}
+.cycle-pager .cycle-pager-active {
+	background-color: white;
+}
+
+/*end slider*/
+
+footer {
+  width: 100%;
+  height: 50px;
+  clear: both;
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Nirmala UI;
+ }
+
+ a.facebook {
+  color: #333;
+  text-decoration: none;
+ }
+  a.facebook:hover {
+  color: blue;
+  text-decoration: underline;
+ }

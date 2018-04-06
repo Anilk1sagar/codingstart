@@ -1,0 +1,394 @@
+body {
+	margin: 0;
+	margin-top: 60px;
+	padding: 0;
+	background-color: #ebebeb !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+p {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.page-header, .plugin-box h3, .plugin-box h2 {
+	font-family: 'Comfortaa', cursive !important;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 99999;
+  transition: all .2s;
+}
+
+/*====== Scoll to top button css ========*/
+.scrollToTop{
+	border-radius: 50%; 
+	background-color: #01bbd4;
+	position:fixed;
+	top:85%;
+	right:2%;
+	display:none;
+	box-shadow: 0px 0px 10px #222;
+	-webkit-transition: box-shadow .3s;
+	-moz-transition: box-shadow .3s;
+	transition: box-shadow .3s;
+}
+
+.scroll-top-img {
+	width: 55px;
+	height: 55px;
+}
+
+/*================== HEADER CSS ========*/
+.header {
+	width: 100%;
+	height: 60px;
+	padding: 15px 50px 15px 50px;
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	box-shadow: 0px 0px 4px #333;
+	z-index: 9999;
+}
+
+.openNav {
+	border: 0px;
+	background-color: transparent;
+	font-size: 18px;
+	color: #111;
+}
+
+a.brand {
+	color: #111;
+	font-size: 23px;
+	margin-left: 10px;
+}
+a.brand:hover {
+	text-decoration: none;
+	opacity: .80;
+}
+
+.header_menu {
+	float: right;
+	padding: 12px;
+	margin-top: -3px;
+}
+
+.header_menu a {
+	color: #111;
+	padding: 15px;
+	border: 0px;
+	text-decoration: none;
+	transition: color .2s;
+}
+
+.header_menu a:hover {
+	color: #01bbd4;
+	border-bottom: 3px solid #01bbd4;
+}
+
+.header_menu form {
+	float: left;
+	margin-top: -15px;
+}
+
+.logout-btn {
+	color: #111;
+	padding: 14px;
+	border: 0px;
+	text-decoration: none;
+	transition: color .2s;
+	background-color: transparent;
+}
+
+.logout-btn:hover {
+	color: #01bbd4;
+	border-bottom: 3px solid #01bbd4;
+}
+
+/* Menu logout button */
+.menu-logout-btn {
+	width: 100%;
+    border: 0px;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: #111;
+    display: block;
+    padding: 15px;
+    text-align: left;
+    text-indent: 10px;
+    word-spacing: 11px;
+    transition: all .2s;
+}
+
+.menu-logout-btn:hover {
+	color: #01bbd4;
+}
+
+a.search_btn:hover {
+	border-bottom: 0px;
+	color: #01bbd4;
+}
+
+#main-container {
+	background-color: #fff !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	box-shadow: 0px 0px 20px #999;
+}
+
+/*====================start navbar===========================*/
+
+.navbar {
+  color: #111;
+  background: #fff;
+  width: 250px;
+  position: fixed;
+  left: -250px;
+  top: 0;
+  height: 100%;
+  transition: all .2s ease-in-out;
+  z-index: 99999;
+}
+
+.navbar-header {
+  width: 100%;
+  height: 200px;
+  padding: 40px 10px 40px 10px;
+  background: #1aa6b7;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.close-nav {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.personal_info {
+	color: #fff;
+	text-shadow: 1px 1px 1px #555;
+}
+
+.personal_info img {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+	border: 4px solid #fff;
+	box-shadow: 0px 0px 7px #222;
+}
+
+.personal_info span {
+	font-size: 11px;
+}
+
+ul.navbar-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-nav li {
+  display: block;
+  width: 100%;
+}
+
+.navbar-nav li a {
+  font-size: 14px;
+  color: #111;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-indent: 10px;
+  transition: all .2s;
+  word-spacing: 15px;
+}
+
+a.active {
+  color: #01bbd4 !important;
+  background: #fff;
+  border-bottom: 2px solid #01bbd4;
+}
+
+.navbar-nav li a:hover{
+  color: #01bbd4;
+}
+
+/*====================start slider========================*/
+
+.slider {
+	width: 100%;
+	position: relative;
+}
+
+.welcome-box {
+	position: absolute;
+	width: 100%;
+	margin: 10% auto 0 auto;
+	z-index: 1000;
+	color: white;
+	font-size: 20px;
+	padding-left: 50px;
+}
+.welcome-box > h1 {
+	font-size: 40px;
+	text-shadow : 2px 2px 1px #222;
+	font-family: 'Comfortaa', cursive !important;
+}
+
+.banner_image {
+	width: 100%;
+}
+
+.cycle-slideshow {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+
+.cycle-prev, .cycle-next {
+	display: block;
+	position: absolute;
+	z-index: 999;
+	bottom: 5%;
+	cursor: pointer;
+}
+.cycle-prev {
+	left: 5%;
+}
+.cycle-next {
+	right: 5%;
+}
+.cycle-pager {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	text-align: center;
+	z-index: 999;
+}
+.cycle-pager span {
+	color: transparent;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #fff;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 0 10px;
+	cursor: pointer;
+}
+.cycle-pager .cycle-pager-active {
+	background-color: white;
+}
+
+/*=================start content-container==============*/
+.feature {
+	width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.feature-box {
+	background-color: #fff;
+	color: #01bbd4;
+	padding: 30px 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 3px rgba(0,0,0,0.24);
+}
+
+.feature-box h4 {
+	color: #222;
+}
+
+.content-container {
+	background-color: white;
+	color: #333;
+	font-size: 16px;
+	font-weight: lighter;
+	box-shadow: 0px 0px 20px #999;
+}
+
+.code-box a {
+	text-decoration: none;
+}
+
+/*=================Contact us page==============*/
+.profile-box {
+	padding: 10px 30%;
+}
+
+/*=============================footer==========================*/
+#footer {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 15px;
+	clear: both;
+	float: bottom;
+	color: #fff;
+	background-color: #222;
+}
+
+a.footer_brand {
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	font-family: 'Comfortaa', cursive !important;
+}
+
+a.footer_brand:hover {
+	opacity: .7;
+}
+
+.developer_heading {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Comfortaa', cursive !important;
+}
+
+a.Developer_link {
+	color: #fff;
+	text-decoration: none;
+	opacity: .70;
+	font-family: 'Comfortaa', cursive !important;
+}
+a.Developer_link:hover {
+	color: #fff;
+	opacity: 1;
+}
+
+.copyright {
+	color: #fff;
+	font-family: 'Comfortaa', cursive !important;
+}
+
+/*========================== Login.php ===========================*/
+
+.changepwd_wrapper {
+	width: 30%;
+	margin: 10% auto 10% auto;
+}
+
+/*========================== Search.php ===========================*/
+
+.search_field {
+	padding: 20px;
+	margin: 20px auto;
+	width: 60%;
+}

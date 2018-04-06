@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: #a164f4;
+  overflow-y: hidden; 
+}
+
+
+.heading {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Nirmala UI;
+  font-size: 35px;
+  text-shadow: 5px 0px 5px #000;
+  margin-top: 15px;
+}
+
+/*====================start slider========================*/
+
+
+textarea
+{
+  width:400px;
+  height:100px;
+  overflow:hidden;
+  border-radius:5px;
+  padding:10px;
+}
+
+
+
+/*end slider*/
+
+footer {
+  width: 100%;
+  height: 50px;
+  clear: both;
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Nirmala UI;
+ }
+
+ a.facebook {
+  color: #333;
+  text-decoration: none;
+ }
+  a.facebook:hover {
+  color: blue;
+  text-decoration: underline;
+ }

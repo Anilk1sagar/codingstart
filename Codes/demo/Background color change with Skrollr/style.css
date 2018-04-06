@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #5ab3f7;
+}
+
+
+.heading {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Nirmala UI;
+  font-size: 35px;
+  text-shadow: 5px 0px 5px #000;
+  margin-top: 15px;
+}
+
+/*====================start ========================*/
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.block {
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.block h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: black;
+}
+.block p {
+  margin: 40px auto 0;
+  max-width: 80vw;
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 1.6;
+  letter-spacing: .5px;
+}
+.block.white-text h1,
+.block.white-text p {
+  color: white;
+}
+
+
+
+/*end */
+
+footer {
+  width: 100%;
+  height: 50px;
+  clear: both;
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Nirmala UI;
+ }
+
+ a.facebook {
+  color: #333;
+  text-decoration: none;
+ }
+  a.facebook:hover {
+  color: blue;
+  text-decoration: underline;
+ }

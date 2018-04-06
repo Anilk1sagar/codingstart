@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin:0px;
+}
+
+#amazon {
+	color:orange;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:32px;
+	float:left;
+	margin-top:0px;
+	display:inline-block;
+	width:200px;
+	height:40px;
+	text-align:center;
+	line-height:50px;
+}
+
+#menu {
+	width:100%;
+	height:40px;
+	margin-right:0;
+	text-align:center;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+li {
+	float:right;
+	list-style:none;
+	line-height:40px;
+	display:block;
+	text-align:center;
+}
+
+li a {
+	color:#666;
+	text-decoration:none;
+	display:inline-block;
+	width:100px;
+	height:40px;
+}
+
+li a:hover {
+	color:red;
+}
+
+.show-nav {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background:#C00 url('menu.png') no-repeat center center;
+	background-position:95% 60%;
+	background-size:30px 30px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	display:none;
+	margin-left:0;
+}
+b{
+   position:absolute;
+   left:40px;
+   font-size:20px;
+}
+
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #nav{
+    display: block;
+	
+}
+
+
+
+@media screen and (max-width:716px) {
+	
+	#amazon {
+		margin-top:-50px;
+		height:48px;
+	}
+	
+   #menu {
+	   margin-top:50px;
+	   height:45px;
+	   width:100%;
+    }
+
+   ul {
+	   margin:0;
+	   padding:0;
+	   background:#C00;
+	   list-style:none;
+    }
+
+   li {
+	   float:none;
+	   display:inline;
+    }
+
+   li a {
+	   color:#CCC;
+	   text-decoration:none;
+	   display:inline-block;
+	   width:90px;
+	   height:45px;
+	   text-align:center;
+	   line-height:45px;
+    }
+
+   li a:hover {
+	   color:#FFF;
+	   background:#333;
+	   border-radius:5px;
+    }
+}
+
+
+
+@media screen and (max-width:481px) {
+	
+	#amazon {
+		width:100%;
+	}
+	
+   #menu {
+	   margin-left:0;
+    }
+
+   #menu ul {
+       display:none;
+	    margin-left:0px;
+		padding-left:0;
+		position:relative;
+		top:51px;
+		background:#C00;
+    }
+
+   #menu li {
+        
+    }
+
+   #menu li a {
+	 width:100%;
+	 border-bottom:1px solid white;
+    }
+
+   #menu li a:hover {
+	   color:#FFF;
+	   background:#333;
+	   border-radius:5px;
+    }
+	
+	/*Display 'show menu' link*/
+	.show-nav{
+		display:block;
+		width:100%;
+	    position:absolute;
+	    top:50px;
+	}
+}
+
+
+
+

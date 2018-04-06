@@ -1,0 +1,210 @@
+body {
+  background-color: #fa6b67;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Nirmala UI;
+  font-size: 35px;
+  text-shadow: 5px 0px 5px #000;
+  margin: 0;
+}
+
+.main {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 10px auto 0px auto;
+  width: 700px;
+  height: 250px;
+}
+
+
+
+#images {
+  float: left;
+  display: block;
+  margin: 20px 30px 0px 40px; 
+}
+
+#tv {
+  float: left;
+  display: block; 
+  margin: 40px 30px 0px 0px;
+}
+
+.fan {
+  float: left;
+  display: block;
+  margin: 50px 0px 0px 0px; 
+}
+
+#first {
+  display:;
+  width: 140px;
+  height: 210px;
+  
+}
+
+#second {
+  display: none;
+  width: 140px;
+  height: 210px;
+}
+
+#firsttv {
+  width: 260px;
+  display: block;
+}
+
+.secondtv {
+  display: none;
+  width: 260px;
+}
+
+#firstfan {
+  width: 150px;
+}
+
+.rotate {
+  -moz-animation:spinoff .4s infinite linear;
+  -webkit-animation:spinoff .4s infinite linear;
+  animation:spinoff .4s infinite linear;
+}
+
+@-moz-keyframes spinoff {
+  0% { -moz-transform:rotate(0deg);  }
+  100% { -moz-transform:rotate(360deg); }
+}
+
+@-webkit-keyframes spinoff {
+  0% { -webkit-transform:rotate(0deg);  }
+  100% { -webkit-transform:rotate(360deg); }
+}
+
+@keyframes spinoff {
+  0% { transform:rotate(0deg);  }
+  100% { transform:rotate(360deg); }
+}
+
+/*..........................for switch .............*/
+.switchmain{
+  border: 2px solid white;
+  margin: 0px auto 0px auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px #111;
+  width: 700px;
+  height: 200px;
+}
+
+.content {
+  box-shadow: 0px 0px 20px #bdbbbb;
+  margin: 10px 0px 0px 20px;
+  width: 660px;
+  height: 180px;
+}
+
+.first_btn {
+  border: 2px solid #d9d7d7;
+  float: left;
+  margin: 10px 80px 0px 18px;
+  width: 160px;
+  height: 160px;
+}
+.second_btn {
+  border: 2px solid #d9d7d7;
+  float: left;
+  margin: 10px 60px 0px 0px;
+  width: 160px;
+  height: 160px;
+}
+.third_btn {
+  border: 2px solid #d9d7d7;
+  float: left;
+  margin: 10px 0px 0px 0px;
+  width: 160px;
+  height: 160px;
+}
+
+.bulbbtn {
+  width: 40px;
+  height: 90px;
+  margin: 30px 0 0 60px;
+  box-shadow: 0px 5px 8px black;
+  background-color: white;
+}
+
+.bulbbtn:hover {
+  cursor: pointer;
+}
+
+.tvbtn {
+  width: 40px;
+  height: 90px;
+  margin: 30px 0 0 60px;
+  box-shadow: 0px 5px 8px black;
+  background-color: white;
+}
+
+.tvbtn:hover {
+  cursor: pointer;
+}
+
+.fanbtn {
+  width: 40px;
+  height: 90px;
+  margin: 30px 0 0 60px;
+  box-shadow: 0px 5px 8px black;
+  background-color: white;
+}
+
+.fanbtn:hover {
+  cursor: pointer;
+}
+
+.wires {
+  margin: 0px auto 0px auto;
+  width: 600px;
+  height: 80px; 
+}
+
+.wire1 {
+  width: 100px;
+  height: 80px;
+  margin: 0 100px 0 20px;
+}
+.wire2 {
+  width: 100px;
+  height: 80px;
+  margin-left: 20px;
+}
+.wire3 {
+  width: 100px;
+  height: 80px;
+  margin-left: 130px;
+}
+
+
+
+footer {
+  width: 100%;
+  height: 50px;
+  clear: both;
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Nirmala UI;
+ }
+
+ a.facebook {
+  color: #333;
+  text-decoration: none;
+ }
+  a.facebook:hover {
+  color: blue;
+  text-decoration: underline;
+ }

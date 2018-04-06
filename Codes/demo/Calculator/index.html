@@ -1,0 +1,50 @@
+<!-- Created by Anil Kumar -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 class="heading">JavaScript Calculator</h1>
+	<div class="container">
+		<div class="screen">
+			<input type="button" value="Del" class="del_btn" onclick="del();">
+			<span id="showScreen"></span><br><br>
+			<span id="printScreen"></span>
+		</div>
+
+		<div class="num_section">
+			<div class="row">
+				<input type="button" class="num_btn" value="7" onclick="getNumbers(this);">
+				<input type="button" class="num_btn" value="8" onclick="getNumbers(this);">
+				<input type="button" class="num_btn" value="9" onclick="getNumbers(this);">
+			</div>
+			<div class="row">
+				<input type="button" class="num_btn" value="4" onclick="getNumbers(this);">
+				<input type="button" class="num_btn" value="5" onclick="getNumbers(this);">
+				<input type="button" class="num_btn" value="6" onclick="getNumbers(this);">
+			</div>
+			<div class="row">
+				<input type="button" class="num_btn" value="1" onclick="getNumbers(this);">
+				<input type="button" class="num_btn" value="2" onclick="getNumbers(this);">
+				<input type="button" class="num_btn" value="3" onclick="getNumbers(this);">
+			</div>
+			<div class="row">
+				<input type="button" class="num_btn" value="." onclick="getNumbers(this);">
+				<input type="button" class="num_btn" value="0" onclick="getNumbers(this);">
+				<input type="button" class="num_btn" value="=" onclick="getresult();">
+			</div>
+		</div>
+
+		<div class="operator_section">
+			<button class="operator_btn" value="/" onclick="getOperators(this)">÷</button>
+			<button class="operator_btn" value="*" onclick="getOperators(this);">x</button>
+			<button class="operator_btn" value="-" onclick="getOperators(this);">-</button>
+			<button class="operator_btn" value="+" onclick="getOperators(this);">+</button>
+		</div>
+	</div>
+	<footer>Created by Anil Kumar Facebook:<a class="facebook" href="https://www.facebook.com/Anilk1sagar"> Anilk1sagar </a>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
